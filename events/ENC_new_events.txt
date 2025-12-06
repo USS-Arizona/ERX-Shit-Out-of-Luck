@@ -5,7 +5,7 @@ add_namespace = ENC_sol
 #### NEW EVENTS ###
 
 country_event = {
-    id = ENC_sol.1
+    id = enc_sol.1
     title = enc_sol.1.t
     desc = enc_sol.1.d
     picture = GFX_report_event_generic_sign_treaty2
