@@ -1,0 +1,5 @@
+### Event Categories ###
+
+add_namespace = ENC_sol
+
+#### INTRO EVENTS ###
