@@ -17,3 +17,185 @@ country_event = {
         name = enc_sol.1.a
     }
 }
+
+country_event = {
+    id = enc_sol.2
+    title = enc_sol.2.t
+    desc = enc_sol.2.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.2.a
+    }
+}
+
+country_event = {
+    id = enc_sol.3
+    title = enc_sol.3.t
+    desc = enc_sol.3.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.3.a
+    }
+}
+
+country_event = {
+    id = enc_sol.4
+    title = enc_sol.4.t
+    desc = enc_sol.4.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.4.a
+    }
+}
+
+country_event = {
+    id = enc_sol.5
+    title = enc_sol.5.t
+    desc = enc_sol.5.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.5.a
+    }
+}
+
+country_event = {
+    id = enc_sol.6
+    title = enc_sol.6.t
+    desc = enc_sol.6.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.6.a
+    }
+}
+
+country_event = {
+    id = enc_sol.7
+    title = enc_sol.7.t
+    desc = enc_sol.7.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.7.a
+    }
+}
+
+country_event = {
+    id = enc_sol.8
+    title = enc_sol.8.t
+    desc = enc_sol.8.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.8.a
+    }
+}
+
+country_event = {
+    id = enc_sol.9
+    title = enc_sol.9.t
+    desc = enc_sol.9.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.9.a
+    }
+}
+
+country_event = {
+    id = enc_sol.10
+    title = enc_sol.10.t
+    desc = enc_sol.10.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.10.a
+    }
+}
+
+country_event = {
+    id = enc_sol.11
+    title = enc_sol.11.t
+    desc = enc_sol.11.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.11.a
+    }
+}
+
+country_event = {
+    id = enc_sol.12
+    title = enc_sol.12.t
+    desc = enc_sol.12.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.13.a
+    }
+}
+
+country_event = {
+    id = enc_sol.13
+    title = enc_sol.13.t
+    desc = enc_sol.13.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.13.a
+    }
+}
+
+country_event = {
+    id = enc_sol.14
+    title = enc_sol.14.t
+    desc = enc_sol.14.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.14.a
+    }
+}
