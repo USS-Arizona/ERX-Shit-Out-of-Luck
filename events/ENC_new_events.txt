@@ -213,3 +213,63 @@ country_event = {
         name = enc_sol.15.a
     }
 }
+
+country_event = {
+    id = enc_sol.16
+    title = enc_sol.16.t
+    desc = enc_sol.16.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.16.a
+    }
+}
+
+country_event = {
+    id = enc_sol.17
+    title = enc_sol.17.t
+    desc = enc_sol.17.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.17.a
+    }
+}
+
+country_event = {
+    id = enc_sol.18
+    title = enc_sol.18.t
+    desc = enc_sol.18.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.18.a
+    }
+}
+
+country_event = {
+    id = enc_sol.19
+    title = enc_sol.19.t
+    desc = enc_sol.19.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.19.a
+    }
+
+    option = {
+        name = enc_sol.19.b
+    }
+}
