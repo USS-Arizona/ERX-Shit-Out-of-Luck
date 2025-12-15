@@ -199,3 +199,17 @@ country_event = {
         name = enc_sol.14.a
     }
 }
+
+country_event = {
+    id = enc_sol.15
+    title = enc_sol.15.t
+    desc = enc_sol.15.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = enc_sol.15.a
+    }
+}
