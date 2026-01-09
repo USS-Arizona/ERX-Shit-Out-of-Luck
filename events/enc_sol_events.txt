@@ -1,17 +1,13 @@
 ﻿### Event Categories ###
 
-add_namespace = enc_sol
-		original_tag = ERB
-		has_completed_focus = enc_
 
-country_event = {
+country_event = { #1 America the Comatose
     id = enc_sol.1
     title = enc_sol.1.t
     desc = enc_sol.1.d
     picture = GFX_event_enc_sol_coma
-
-    is_triggered_only = yes
 	fire_only_once = yes
+    is_triggered_only = no
 
     option = {
         name = enc_sol.1.a
@@ -22,46 +18,53 @@ country_event = {
 
 }
 
-country_event = {
+country_event = { #2 Send Distress Signal
     id = enc_sol.2
     title = enc_sol.2.t
     desc = enc_sol.2.d
     picture = GFX_event_enc_sol_sds
    
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_calling_all_enclave
+	}
     option = {
         name = enc_sol.2.a
     }
 	
 }
 
-country_event = {
+country_event = { #3 Cloak and Dagger
     id = enc_sol.3
     title = enc_sol.3.t
     desc = enc_sol.3.d
     picture = GFX_event_enc_sol_cnd
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_red_menace
+	}
     option = {
         name = enc_sol.3.a
     }
 }
 
-country_event = {
+country_event = { #4 Shadow of the Red Menace
     id = enc_sol.4
     title = enc_sol.4.t
     desc = enc_sol.4.d
     picture = GFX_event_enc_sol_srm
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
-
+	trigger = {
+		original_tag = ERB
+		has_completed_focus = enc_red_menace
+	}
     option = {
         name = enc_sol.4.a
     }
@@ -74,10 +77,12 @@ country_event = {
     desc = enc_sol.5.d
     picture = GFX_event_enc_sol_gli
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger ={
 		original_tag = ERB
 		has_completed_focus = enc_expand_human_definition
+	}
     option = {
         name = enc_sol.5.a
     }
@@ -90,10 +95,12 @@ country_event = {
     desc = enc_sol.6.d
     picture = GFX_event_enc_sol_fop
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_reno_end
+	}
     option = {
         name = enc_sol.6.a
     }
@@ -105,10 +112,12 @@ country_event = {
     desc = enc_sol.7.d
     picture = GFX_event_enc_sol_sbr
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_Never_fall
+	}
     option = {
         name = enc_sol.7.a
     }
@@ -120,10 +129,12 @@ country_event = {
     desc = enc_sol.8.d
     picture = GFX_event_enc_sol_cnd
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_reform
+	}
     option = {
         name = enc_sol.8.a
     }
@@ -135,10 +146,12 @@ country_event = {
     desc = enc_sol.9.d
     picture = GFX_event_enc_sol_amn
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_purity
+	}
     option = {
         name = enc_sol.9.a
     }
@@ -150,11 +163,13 @@ country_event = {
     desc = enc_sol.10.d
     picture = GFX_event_enc_sol_lwe
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_reno_family
-		mean_time_to_happen = { 
+	}
+	mean_time_to_happen = { 
 		days = 10 }
     option = {
         name = enc_sol.10.a
@@ -167,7 +182,7 @@ country_event = {
     desc = enc_sol.11.d
     picture = GFX_event_enc_sol_sof
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
 
     option = {
@@ -184,14 +199,16 @@ country_event = {
     desc = enc_sol.12.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_east_Jack_vipers
+	}
     option = {
         name = enc_sol.13.a
     }
-		mean_time_to_happen = {
+	mean_time_to_happen = {
 		days = 50
 	}
 		country_event = { id = enc_sol.13 }
@@ -203,7 +220,7 @@ country_event = {
     desc = enc_sol.13.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
 
     option = {
@@ -217,10 +234,12 @@ country_event = {
     desc = enc_sol.14.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_americans_one_and_all
+	}
     option = {
         name = enc_sol.14.a
     }
@@ -232,10 +251,12 @@ country_event = {
     desc = enc_sol.15.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_radio
+	}
     option = {
         name = enc_sol.15.a
     }
@@ -247,10 +268,12 @@ country_event = {
     desc = enc_sol.16.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_pro_enclave_propaganda
+	}
     option = {
         name = enc_sol.16.a
     }
@@ -262,10 +285,12 @@ country_event = {
     desc = enc_sol.17.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_patrol_the_street
+	}
     option = {
         name = enc_sol.17.a
     }
@@ -277,10 +302,12 @@ country_event = {
     desc = enc_sol.18.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_out_with_the_old
+	}
     option = {
         name = enc_sol.18.a
     }
@@ -292,11 +319,12 @@ country_event = {
     desc = enc_sol.19.d
     picture = GFX_report_event_generic_sign_treaty2
 
-    is_triggered_only = yes
+    is_triggered_only = no
 	fire_only_once = yes
+	trigger = {
 		original_tag = ERB
 		has_completed_focus = enc_home_in_nevada
-
+	}
     option = {
         name = enc_sol.19.a
     }

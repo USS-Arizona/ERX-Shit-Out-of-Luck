@@ -1,0 +1,121 @@
+spriteTypes = {
+
+#Events
+
+	SpriteType = {
+        name = "GFX_event_enc_am_portal"
+ 		texturefile = "gfx/event_pictures/enc_am_portal.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_enc_am_remembering_yamato"
+ 		texturefile = "gfx/event_pictures/enc_am_remembering_yamato.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_enc_am_american_singers"
+ 		texturefile = "gfx/event_pictures/enc_am_american_singers.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_enc_furry_ducky"
+ 		texturefile = "gfx/event_pictures/event_enc_furry_ducky.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_hellaverse"
+ 		texturefile = "gfx/event_pictures/GFX_event_hellaverse.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_UNSC"
+ 		texturefile = "gfx/event_pictures/enc_furry_UNSC_event_picture.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_Eggman_Start_event"
+ 		texturefile = "gfx/event_pictures/GFX_event_Eggman_Start_event.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_FOX_Purist_Start_event"
+ 		texturefile = "gfx/event_pictures/GFX_event_FOX_Purist_Start_event.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_FOX_American_WW_II"
+ 		texturefile = "gfx/event_pictures/GFX_event_FOX_American_WW_II.dds"
+ 	}
+	SpriteType = {
+        name = "GFX_event_FOX_HOLY_FUCK_event"
+ 		texturefile = "gfx/event_pictures/GFX_event_FOX_HOLY_FUCK_event.dds"
+ 	}
+	
+#Ideas
+
+	spriteType = { #Acorn Kingdom Remnants
+		name = "GFX_idea_FOX_acorn_freedom_fighters"
+		texturefile = "gfx/interface/ideas/FOX_acorn_freedom_fighters.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_mobian_resistance"
+		texturefile = "gfx/interface/ideas/FOX_mobian_resistance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_UNSC_remnants"
+		texturefile = "gfx/interface/ideas/FOX_UNSC_remnants.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_UNSC_ONI_remnants"
+		texturefile = "gfx/interface/ideas/FOX_UNSC_ONI_remnants.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLACEHOLDER"
+		texturefile = "gfx/interface/ideas/PLACEHOLDER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLACEHOLDER"
+		texturefile = "gfx/interface/ideas/PLACEHOLDER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_hellaverse_remnants"
+		texturefile = "gfx/interface/ideas/FOX_hellaverse_remnants.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_world_war_two_remnants"
+		texturefile = "gfx/interface/ideas/FOX_world_war_two_remnants.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_he_is_the_eggman"
+		texturefile = "gfx/interface/ideas/FOX_he_is_the_eggman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FOX_purist_threat"
+		texturefile = "gfx/interface/ideas/FOX_purist_threat.dds"
+	}
+	
+	#Aces
+	
+	spriteType = {
+		name = "GFX_ERB_ace_Marcus_Lampurt" 
+		texturefile = "gfx/aces/GFX_ERB_ace_Marcus_Lampert.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_ERB_ace_Ashton_Doolittle" 
+		texturefile = "gfx/aces/ERB_UNSC_ace.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_ERB_ace_James_Kennedy" 
+		texturefile = "gfx/aces/ERB_UNSC_ace.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_ERB_ace_Fox_McCloud" 
+		texturefile = "gfx/aces/GFX_ERB_ace_Fox_McCloud.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_ERB_ace_Queen_Bee" 
+		texturefile = "gfx/aces/GFX_ERB_ace_Queen_Bee.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_ERB_ace_Sin_Beezlebub" 
+		texturefile = "gfx/aces/GFX_ERB_ace_Queen_Bee.dds" 
+	}
+}
+
