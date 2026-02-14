@@ -1,0 +1,60 @@
+spriteTypes = {
+
+#Events
+
+	SpriteType = { #SOL Coma
+        name = "GFX_event_enc_sol_coma"
+ 		texturefile = "gfx/event_pictures/enc_sol_coma.dds"
+ 	}
+	SpriteType = { #SOL SDS
+        name = "GFX_event_enc_sol_sds"
+ 		texturefile = "gfx/event_pictures/enc_sol_sds.dds"
+ 	}
+	SpriteType = { #SOL CND
+        name = "GFX_event_enc_sol_cnd"
+ 		texturefile = "gfx/event_pictures/enc_sol_cnd.dds"
+ 	}
+	SpriteType = { #SOL SRM - RIP Ducky, best boi
+        name = "GFX_event_enc_sol_srm"
+ 		texturefile = "gfx/event_pictures/enc_sol_srm.dds"
+ 	}
+	SpriteType = { #SOL GLI
+        name = "GFX_event_enc_sol_gli"
+ 		texturefile = "gfx/event_pictures/enc_sol_gli.dds"
+ 	}
+	SpriteType = { #SOL FOP - Eyyyy Fop Hunt!
+        name = "GFX_event_enc_sol_fop"
+ 		texturefile = "gfx/event_pictures/enc_sol_fop.dds"
+ 	}
+	SpriteType = { #SOL SBR
+        name = "GFX_event_enc_sol_sbr"
+ 		texturefile = "gfx/event_pictures/enc_sol_sbr.dds"
+ 	}
+	SpriteType = { #SOL AMN - Autumn Ripoff???
+        name = "GFX_event_enc_sol_amn"
+ 		texturefile = "gfx/event_pictures/enc_sol_amn.dds"
+ 	}
+	SpriteType = { #SOL LWE
+        name = "GFX_event_enc_sol_lwe"
+ 		texturefile = "gfx/event_pictures/FOX_EVENT_PICTURE_DOES_NOT_EXIST.dds" #You need to get a picture# #and add it!#
+ 	}
+	SpriteType = { #SOL SOF
+        name = "GFX_event_enc_sol_sof"
+ 		texturefile = "gfx/event_pictures/enc_sol_sof.dds"
+ 	}
+	
+	### Fox Note: From now on, LABEL your Event pictures as to not get confused.
+	
+	SpriteType = { #EVENT NAME HERE
+        name = "GFX_event_EXAMPLE"
+ 		texturefile = "gfx/event_pictures/GFX_event_EXAMPLE.dds"
+ 	}
+	
+#Ideas
+
+	spriteType = { #IDEA NAME HERE
+		name = "GFX_idea_EXAMPLE"
+		texturefile = "gfx/interface/ideas/EXAMPLE.dds"
+	}
+}
+
