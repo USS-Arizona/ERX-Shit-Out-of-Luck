@@ -76,7 +76,6 @@ country_event = { #4 Shadow of the Red Menace #FOX NOTE: Double of the same??? M
 		AND = {
 			original_tag = ERB
 			has_completed_focus = enc_red_menace
-
 		}
 	}
     option = {
@@ -408,6 +407,576 @@ country_event = {
     option = {
         name = enc_sol.20.a
     }
-
- 
 }
+
+
+country_event = {
+    id = enc_sol.21
+    title = enc_sol.21.t
+    desc = enc_sol.21.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.21.a
+    }
+}
+
+country_event = {
+    id = enc_sol.22
+    title = enc_sol.22.t
+    desc = enc_sol.22.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_idea = enc_braindrain
+		}
+	}
+    option = {
+        name = enc_sol.22.a
+    }
+}
+
+country_event = {
+    id = enc_sol.23
+    title = enc_sol.23.t
+    desc = enc_sol.23.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_america_unlock_focuses
+			owns_state = 254
+		}
+	}
+    option = {
+        name = enc_sol.23.a
+    }
+}
+
+country_event = {
+    id = enc_sol.24
+    title = enc_sol.24.t
+    desc = enc_sol.24.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.24.a
+    }
+}
+
+country_event = {
+    id = enc_sol.25
+    title = enc_sol.25.t
+    desc = enc_sol.25.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_america_unlock_focuses
+			owns_state = 254
+			NOT = {
+				country_exists = NCR
+			}
+		}
+	}
+    option = {
+        name = enc_sol.25.a
+    }
+}
+
+country_event = {
+    id = enc_sol.26
+    title = enc_sol.26.t
+    desc = enc_sol.26.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_reform_unlock_focuses
+			has_war_with = SKY
+		}
+	}
+    option = {
+        name = enc_sol.26.a
+    }
+}
+
+country_event = {
+    id = enc_sol.27
+    title = enc_sol.27.t
+    desc = enc_sol.27.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_reform_unlock_focuses
+			owns_state = 389
+		}
+	}
+    option = {
+        name = enc_sol.27.a
+    }
+}
+
+country_event = {
+    id = enc_sol.28
+    title = enc_sol.28.t
+    desc = enc_sol.28.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_reform_unlock_focuses
+			owns_state = 389
+			NOT = {
+				country_exists = SKY
+			}
+		}
+	}
+    option = {
+        name = enc_sol.28.a
+    }
+}
+
+country_event = {
+    id = enc_sol.29
+    title = enc_sol.29.t
+    desc = enc_sol.29.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.29.a
+    }
+}
+
+country_event = {
+    id = enc_sol.30
+    title = enc_sol.30.t
+    desc = enc_sol.30.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.30.a
+    }
+}
+
+country_event = {
+    id = enc_sol.31
+    title = enc_sol.31.t
+    desc = enc_sol.31.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.31.a
+    }
+}
+
+country_event = {
+    id = enc_sol.32
+    title = enc_sol.32.t
+    desc = enc_sol.32.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.32.a
+    }
+}
+
+country_event = {
+    id = enc_sol.33
+    title = enc_sol.33.t
+    desc = enc_sol.33.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_completed_focus = enc_reno_end
+		}
+	}
+    option = {
+        name = enc_sol.33.a
+    }
+}
+
+country_event = {
+    id = enc_sol.34
+    title = enc_sol.34.t
+    desc = enc_sol.34.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_completed_focus = enc_rebuild_the_power_grid
+		}
+	}
+    option = {
+        name = enc_sol.34.a
+    }
+}
+
+country_event = {
+    id = enc_sol.35
+    title = enc_sol.35.t
+    desc = enc_sol.35.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_reform_unlock_focuses
+			has_war_with = WBH
+		}
+	}
+    option = {
+        name = enc_sol.35.a
+    }
+}
+
+country_event = {
+    id = enc_sol.36
+    title = enc_sol.36.t
+    desc = enc_sol.36.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_completed_focus = enc_old_world_ways
+		}
+	}
+    option = {
+        name = enc_sol.36.a
+		add_manpower = 33
+    }
+}
+
+country_event = {
+    id = enc_sol.37
+    title = enc_sol.37.t
+    desc = enc_sol.37.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_war_with = NCR
+			owns_state = 589
+		}
+	}
+    option = {
+        name = enc_sol.37.a
+		country_event = { id = enc_sol.38 days = 10 }
+    }
+}
+
+country_event = {
+    id = enc_sol.38
+    title = enc_sol.38.t
+    desc = enc_sol.38.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+    option = {
+        name = enc_sol.38.a
+    }
+}
+
+country_event = {
+    id = enc_sol.39
+    title = enc_sol.39.t
+    desc = enc_sol.39.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_strength_for_the_new
+	#	}
+	#}
+    option = {
+        name = enc_sol.39.a
+    }
+}
+
+country_event = {
+    id = enc_sol.40
+    title = enc_sol.40.t
+    desc = enc_sol.40.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_power_of_the_old_world
+	#	}
+	#}
+    option = {
+        name = enc_sol.40.a
+    }
+}
+
+country_event = {
+    id = enc_sol.41
+    title = enc_sol.41.t
+    desc = enc_sol.41.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.41.a
+    }
+}
+
+country_event = {
+    id = enc_sol.42
+    title = enc_sol.42.t
+    desc = enc_sol.42.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.42.a
+    }
+}
+
+country_event = {
+    id = enc_sol.43
+    title = enc_sol.43.t
+    desc = enc_sol.43.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.43.a
+    }
+}
+
+country_event = {
+    id = enc_sol.44
+    title = enc_sol.44.t
+    desc = enc_sol.44.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_country_flag = erb_reform_unlock_focuses
+			has_tech = tank_equipment_vehicle_tech_3
+		}
+	}
+    option = {
+        name = enc_sol.44.a
+    }
+}
+
+country_event = {
+    id = enc_sol.45
+    title = enc_sol.45.t
+    desc = enc_sol.45.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.45.a
+    }
+}
+
+country_event = {
+    id = enc_sol.46
+    title = enc_sol.46.t
+    desc = enc_sol.46.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.46.a
+    }
+}
+
+country_event = {
+    id = enc_sol.47
+    title = enc_sol.47.t
+    desc = enc_sol.47.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.47.a
+    }
+}
+
+country_event = {
+    id = enc_sol.48
+    title = enc_sol.48.t
+    desc = enc_sol.48.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			original_tag = ERB
+			has_completed_focus = enc_americans_one_and_all
+			has_country_flag = erb_america_unlock_focuses
+			NOT = {
+				country_exists = NCR
+			}
+		}
+	}
+    option = {
+        name = enc_sol.48.a
+    }
+}
+
+country_event = {
+    id = enc_sol.49
+    title = enc_sol.49.t
+    desc = enc_sol.49.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = no
+	fire_only_once = yes
+	#trigger = {
+	#	AND = {
+	#		original_tag = ERB
+	#		has_completed_focus = enc_home_in_nevada
+	#	}
+	#}
+    option = {
+        name = enc_sol.49.a
+    }
+}
+
+
+
+
+
+
